@@ -14,7 +14,7 @@ public class ClientCollectionSheet implements Parcelable {
     private int clientId;
     private String clientName;
 
-    private ArrayList<LoanCollectionSheet> loans;
+    private ArrayList<LoanCollectionSheet> loans = new ArrayList<>();
 
     private AttendanceTypeOption attendanceType;
 
